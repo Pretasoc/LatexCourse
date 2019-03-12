@@ -1,0 +1,26 @@
+\RequirePackage{nag}
+\documentclass[parskip]{scrbook}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[ngerman]{babel}
+
+\usepackage[hidelinks]{hyperref}
+\title{Einführung in \LaTeX}
+\author{Philemon Eichin}
+
+\begin{document}
+    \maketitle
+    \frontmatter
+    \input{chapters/preface}
+    \tableofcontents
+    \input{chapters/notation}
+    \mainmatter
+    \part{Erste Schritte}
+    \part{Versionskontrolle}
+    \part{Fortgeschrittenes}
+    \part{Programmieren in \LaTeX}
+\end{document}
